@@ -77,7 +77,7 @@ body {
 .banner-description {
     color: #0d1321;
     font-size: 16px;
-    width: 852px;
+    width: 952px;
     height: 52px;
     text-align: center;
     margin-bottom: 32px;
@@ -121,7 +121,7 @@ body {
     color: rgba(13, 19, 33, 0.7);
     font-size: 16px;
     text-align: center;
-    width: 852px;
+    width: 922px;
     height: 52px;
     margin: 0 auto;
     margin-top: 24px;
@@ -332,7 +332,7 @@ body {
 }
 .section4-2-skill {
     width: 1060px;
-    height: fit-content;
+    height: 139px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -351,4 +351,107 @@ body {
     height: 52px;
     margin-top: 10px;
     margin-bottom: 24px;
+}
+/* Section 5 (Support) */
+.section5-container {
+    max-width: 1140px;
+    max-height: 313px;
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.section5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 64px 48px;
+}
+.section5-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+.section5-txt {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    width: 606px;
+    height: 52px;
+    text-align: center;
+}
+.section5-bar {
+    display: flex;
+    justify-content: space-between;
+}
+.section5-search {
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    background-color: white;
+    color: rgba(13, 19, 33, 0.4);
+    padding: 20px;
+    font-family: Azeret Mono;
+    border: none;
+    margin-right: 16px;
+}
+.section5-submit {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background-color: white;
+    color: #0d1321;
+    padding: 17px 20px;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+.section5-submit:hover {
+    opacity: 0.9;
+}
+input:focus {
+    outline: none;
+}
+/* Footer */
+.footer-container {
+    max-width: 1440px;
+    max-height: 100px;
+    background-color: rgba(13, 19, 33, 0.03);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin: 32px 150px;
+} 
+.footer-txt {
+    color: #0d1321;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-social-icons img {
+    margin-left: 24px;
+}
+.footer-social-icons a {
+    text-decoration: none;
 }
