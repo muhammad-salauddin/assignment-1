@@ -107,8 +107,10 @@ body {
     margin: 0 auto;
     margin-top: 74px;
     margin-bottom: 90px;
-    padding: 80px 97px;
 } 
+.section2 {
+    padding: 80px 97px 48px;
+}
 .section2-title {
     color: #0d1321;
     text-align: center;
@@ -116,13 +118,13 @@ body {
     font-size: 32px;
 }
 .section2-description {
-    color: #0d1321;
+    color: rgba(13, 19, 33, 0.7);
     font-size: 16px;
     text-align: center;
     width: 852px;
     height: 52px;
     margin: 0 auto;
-    margin-top: 61px;
+    margin-top: 24px;
     margin-bottom: 48px;
 }
 .section2-box-container {
@@ -186,7 +188,7 @@ body {
     height: 72px;
 }
 .section2-box-txt {
-    color: #0d1321;
+    color: rgba(13, 19, 33, 0.7);
     font-size: 16px;
     width: 468px;
     height: 52px;
@@ -194,16 +196,56 @@ body {
     margin-bottom: 32px;
 }
 .section2-box-btn {
-    border: 1px solid #0d1321;
-    width: 171px;
+    border: 1px solid rgba(13, 19, 33, 0.7);
+    width: 175px;
     height: 47px; 
     background-color: white;
-    color: #0d1321;
+    color: rgba(13, 19, 33, 0.7);
     font-size: 20px;
     font-weight: 600;
     font-family: Azeret Mono;
     cursor: pointer;
+    padding: 12px 20px;
 }
 .section2-img {
     height: 240px;
 }
+/* Section 3 (My Inspiration) */
+.section3-container {
+    max-width: 1140px;
+    max-height: 775px;
+    margin: 0 auto;
+    margin-bottom: 151px;
+}
+.section3-txt-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section3-title {
+    color: #0d1321;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.section3-description {
+    color: #0d1321;
+    font-size: 16px;
+    width: 900px;
+    height: 52px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.section3-yt-video {
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+}
+.section3-yt-video > iframe {
+    width: 1076px;
+    height: 550px;
+    margin: 0 auto;
+    border-radius: 16px;
+}    
