@@ -19,7 +19,7 @@ body {
 .nav-title {
     color: #0d1321;
     font-size: 28px;
-    font-weight: 900;
+    font-weight: 800;
     margin-top: 50px;
     margin-left: 150px;
 }
@@ -67,7 +67,7 @@ body {
 .banner-title {
     color: #0d1321;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
     width: 998px;
     height: 136px;
     text-align: center;
@@ -114,7 +114,7 @@ body {
 .section2-title {
     color: #0d1321;
     text-align: center;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 32px;
 }
 .section2-description {
@@ -226,7 +226,7 @@ body {
 .section3-title {
     color: #0d1321;
     font-size: 32px;
-    font-weight: 900;
+    font-weight: 800;
     margin-bottom: 24px;
     text-align: center;
 }
@@ -265,7 +265,7 @@ body {
 .section4-title {
     color: #0d1321;
     font-size: 32px;
-    font-weight: 900;
+    font-weight: 800;
     text-align: center;
 }
 .section4-txt {
