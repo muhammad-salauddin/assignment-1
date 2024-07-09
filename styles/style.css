@@ -98,3 +98,112 @@ body {
     font-weight: 600;
     font-family: Azeret Mono; 
 }
+/* Section 2 (Why Web Developement */
+.section2-container {
+    max-width: 1140px;
+    max-height: 1393px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+    margin-top: 74px;
+    margin-bottom: 90px;
+    padding: 80px 97px;
+} 
+.section2-title {
+    color: #0d1321;
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+}
+.section2-description {
+    color: #0d1321;
+    font-size: 16px;
+    text-align: center;
+    width: 852px;
+    height: 52px;
+    margin: 0 auto;
+    margin-top: 61px;
+    margin-bottom: 48px;
+}
+.section2-box-container {
+    width: 946px;
+    height: 336px;
+    background-color: white;
+    border-radius: 16px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+.section2-box1 {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px;
+}
+.section2-box2 {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 48px;
+}
+.section2-box3 {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px;
+}
+.section2-box1-txt-container {
+    margin-right: 98px;
+}
+.section2-box2-txt-container {
+    margin-left: 32px;
+    margin-right: 101px;
+}
+.section2-box3-txt-container {
+    margin-right: 98px;
+}
+.section2-box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px;
+}
+.sec2-box-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: bold;
+    width: 390px;
+    height: 72px;
+}
+.section2-box-txt {
+    color: #0d1321;
+    font-size: 16px;
+    width: 468px;
+    height: 52px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.section2-box-btn {
+    border: 1px solid #0d1321;
+    width: 171px;
+    height: 47px; 
+    background-color: white;
+    color: #0d1321;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Azeret Mono;
+    cursor: pointer;
+}
+.section2-img {
+    height: 240px;
+}
