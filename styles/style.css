@@ -272,7 +272,7 @@ body {
     color: rgba(13, 19, 33, 0.7);
     font-size: 16px;
     margin-top: 24px;
-    margin: 48px;
+    margin-bottom: 48px;
     text-align: center;
     width: 852px;
     height: 52px;
@@ -299,7 +299,7 @@ body {
 }
 .section4-skill-title {
     color: #0d1321;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 24px;
     margin-top: 24px;
 }
@@ -318,5 +318,37 @@ body {
 }
 /* Section 4.2 (My Next Target) */
 .section4-2-container {
-    
+    max-width: 1140px;
+    max-height: 866px;
+    margin: 0 auto;
+    margin-bottom: 53px;
+}
+.section4-2-skill-box {
+    width: 1140px;
+    height: 219px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    margin-bottom: 24px;
+}
+.section4-2-skill {
+    width: 1060px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin: 40px;
+}
+.section4-2-skill-title {
+    color: #0d1321;
+    font-weight: 800;
+    font-size: 24px;
+}
+.section4-2-skill-txt {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    width: 892px;
+    height: 52px;
+    margin-top: 10px;
+    margin-bottom: 24px;
 }
