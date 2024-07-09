@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Azeret Mono;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Nav Bar */
+.nav-bar {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+.nav-title {
+    color: #0d1321;
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.nav-btn {
+    width: 244px;
+    height: 57px;
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid #0d1321;
+    color: #0d1321;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 38px;
+    margin-right: 150px;
+    padding: 17px 24px;
+}
+/* Banner Section */
+.banner-container {
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    background-image: url("../assets/Hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    width: 998px;
+    height: 581px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 221px 45px;
+}
+.banner-logo {
+    width: 240px;
+}
+.banner-title {
+    color: #0d1321;
+    font-size: 48px;
+    font-weight: 900;
+    width: 998px;
+    height: 136px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.banner-description {
+    color: #0d1321;
+    font-size: 16px;
+    width: 852px;
+    height: 52px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.banner-btn {
+    background-color: #0d1321;
+    width: 244px;
+    height: 65px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    padding: 21px 24px;
+}
+.banner-btn > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Azeret Mono; 
+}
