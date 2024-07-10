@@ -38,6 +38,10 @@ body {
     margin-right: 150px;
     padding: 17px 24px;
 }
+.nav-btn:hover {
+    background-color: #0d1321;
+    color: white;
+}
 /* Banner Section */
 .banner-container {
     max-width: 1440px;
@@ -90,13 +94,13 @@ body {
     border: none;
     cursor: pointer;
     padding: 21px 24px;
-}
-.banner-btn > a {
-    text-decoration: none;
     color: white;
     font-size: 20px;
     font-weight: 600;
     font-family: Azeret Mono; 
+}
+.banner-btn:hover {
+    opacity: 0.9;
 }
 /* Section 2 (Why Web Developement */
 .section2-container {
