@@ -142,6 +142,20 @@ body {
     align-items: center;
     margin: 0 auto;
     margin-bottom: 32px;
+    background-image: linear-gradient(to right, white, rgba(13, 19, 33, 0.02)); 
+}
+.section2-box-container2 {
+    width: 946px;
+    height: 336px;
+    background-color: white;
+    border-radius: 16px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    background-image: linear-gradient(to left, white, rgba(13, 19, 33, 0.02)); 
 }
 .section2-box1 {
     width: 850px;
