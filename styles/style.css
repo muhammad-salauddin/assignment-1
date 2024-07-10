@@ -54,7 +54,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-border: 1px dashed gray;
 }
 .banner {
     width: 998px;
