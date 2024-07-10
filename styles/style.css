@@ -265,6 +265,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 48px;
 }
 .section4-title {
     color: #0d1321;
@@ -276,7 +277,6 @@ body {
     color: rgba(13, 19, 33, 0.7);
     font-size: 16px;
     margin-top: 24px;
-    margin-bottom: 48px;
     text-align: center;
     width: 852px;
     height: 52px;
@@ -341,7 +341,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    margin: 40px;
+    padding: 40px;
 }
 .section4-2-skill-title {
     color: #0d1321;
